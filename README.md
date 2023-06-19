@@ -17,11 +17,11 @@ I would also ammend the usecase to take a list of robots and there instructions 
 To run the above app, simply load this project into inteliJ and run the program from there. The outputs are displayed in println command.
 
 You can change the inputs on the below object:
-    
+```kotlin    
    generateRobotOutputsUseCase(
         marsGrid = marsGrid,
         startPosition = Position(1, 1),
         orientation = Orientation.E,
         instructions = "RFRFRFRF"
     )
-    
+ ```
