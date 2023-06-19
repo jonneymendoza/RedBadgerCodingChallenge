@@ -18,7 +18,6 @@ To run the above app, simply load this project into inteliJ and run the program 
 
 You can change the inputs on the below object:
     
-    '''
    generateRobotOutputsUseCase(
         marsGrid = marsGrid,
         startPosition = Position(1, 1),
@@ -26,4 +25,3 @@ You can change the inputs on the below object:
         instructions = "RFRFRFRF"
     )
     
-    '''
