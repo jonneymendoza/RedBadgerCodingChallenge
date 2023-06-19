@@ -13,3 +13,17 @@ I would check things like making sure the instructions dont exceed over 50 chara
 Another validation would be to check that the coodinate value never exceeds over 50.
 
 I would also ammend the usecase to take a list of robots and there instructions instead of how it is set out now individually.
+
+To run the above app, simply load this project into inteliJ and run the program from there. The outputs are displayed in println command.
+
+You can change the inputs on the below object:
+    
+    '''
+   generateRobotOutputsUseCase(
+        marsGrid = marsGrid,
+        startPosition = Position(1, 1),
+        orientation = Orientation.E,
+        instructions = "RFRFRFRF"
+    )
+    
+    '''
